@@ -1,0 +1,187 @@
+{
+  "description": "All the listed categories.",
+  "categories": [
+    {
+      "name": "ACE inhibitors or ARBs",
+      "medications": [
+        {
+          "generic_name": "Candesartan",
+          "us_band_name": "Atacand"
+        },
+        {
+          "generic_name": "Enalapril",
+          "us_band_name": "Vasotec"
+        },
+        {
+          "generic_name": "Lisinopril",
+          "us_band_name": "Prinivil, Zestril"
+        },
+        {
+          "generic_name": "Losartan",
+          "us_band_name": "Cozaar"
+        },
+        {
+          "generic_name": "Ramipril",
+          "us_band_name": "Altace"
+        },
+        {
+          "generic_name": "Valsartan",
+          "us_band_name": "Diovan"
+        }
+      ]
+    },
+    {
+      "name": "Aldosterone Antagonists",
+      "medications": [
+        {
+          "generic_name": "Eplerenone",
+          "band_name": "lnspra"
+        }
+      ]
+    },
+    {
+      "name": "Anticoagulants/Antiplatelets",
+      "medications": [
+        {
+          "generic_name": "aspirin, ASA",
+          "band_name": "Bayer, St. Joseph"
+        },
+        {
+          "generic_name": "clopidogrel",
+          "band_name": "Plavix"
+        },
+        {
+          "generic_name": "enoxaparin",
+          "band_name": "Lovenox"
+        },
+        {
+          "generic_name": "heparin",
+          "band_name": "Hep-lock"
+        },
+        {
+          "generic_name": "warfarin",
+          "band_name": "Coumadin"
+        }
+      ]
+    },
+    {
+      "name": "Beta-blockers",
+      "medications": [
+        {
+          "generic_name": "atenolol",
+          "band_name": "Tenormin"
+        },
+        {
+          "generic_name": "carvedilol",
+          "band_name": "Coreg"
+        },
+        {
+          "generic_name": "metoprolol",
+          "band_name": "Lopressor, Toprol XL"
+        }
+      ]
+    },
+    {
+      "name": "Calcium Channel Blockers",
+      "medications": [
+        {
+          "generic_name": "amlodipine ",
+          "band_name": "Norvasc"
+        },
+        {
+          "generic_name": "dilliazem ",
+          "band_name": "Cardizem"
+        },
+        {
+          "generic_name": "nifedipine ",
+          "band_name": "Procardia, Adalat"
+        }
+      ]
+    },
+    {
+      "name": "Antiarrhythmics (Class-1)",
+      "medications": [
+        {
+          "generic_name": "flecainide",
+          "band_name": "Tambocor"
+        },
+        {
+          "generic_name": "lidocaine",
+          "band_name": "Xylocaine"
+        },
+        {
+          "generic_name": "phenytoin",
+          "band_name": "Dilantin"
+        },
+        {
+          "generic_name": "quinidine",
+          "band_name": "Quinidex, Quinaglute"
+        }
+      ]
+    },
+    {
+      "name": "Antiarrhythmics (Class-3)",
+      "medications": [
+        {
+          "generic_name": "Amiodarone",
+          "band_name": "Cordarone, Pacerone"
+        },
+        {
+          "generic_name": "dofelilide",
+          "band_name": "Tikosyn"
+        },
+        {
+          "generic_name": "Sotalol",
+          "band_name": "Betapace"
+        }
+      ]
+    },
+    {
+      "name": "Combination Drugs",
+      "medications": [
+        {
+          "generic_name": "lisinopril+HCTZ",
+          "band_name": "Prinzide, Zestoretic"
+        }
+      ]
+    },
+    {
+      "name": "Diuretics",
+      "medications": [
+        {
+          "generic_name": "Chlorothiazide",
+          "band_name": "Diuril"
+        },
+        {
+          "generic_name": "Furosemide",
+          "band_name": "Lasix"
+        },
+        {
+          "generic_name": "Spironolactone",
+          "band_name": "Aldactone"
+        },
+        {
+          "generic_name": "Torsemide",
+          "band_name": "Demadex"
+        }
+      ]
+    },
+    {
+      "name": "Vasodilators/Nitrates",
+      "medications": [
+        {
+          "generic_name": "Hydralazine",
+          "band_name": "Apresoline"
+        },
+        {
+          "generic_name": "Isosorbide dinitrate",
+          "band_name": "lsordil, Dilatrate-SR"
+        },
+        {
+          "generic_name": "Nitroglycerin-sublingual",
+          "band_name": "Nitrostat"
+        }
+      ]
+    }
+  ]
+}
