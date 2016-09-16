@@ -47,6 +47,7 @@ public class EMA {
     ArrayList<Question> questions;
     public void createEMA(Context context) {
         questions = new ArrayList<>();
+        FileManager.deleteFile(Configuration.EMA_MEDICATION_DIRECTORY+Configuration.EMA_MEDICATION_FILENAME);
         categoryList = Configuration.readSelectedMedicationList();
         if(categoryList==null){
             Toast.makeText(context,"!!! Error: Could not create questionnaire file.!!!",Toast.LENGTH_SHORT).show();
