@@ -1,4 +1,4 @@
-include ':app'
+include ':medication'
 include ':datakitapi'
 project(':datakitapi').projectDir=new File('../mCerebrum-DataKitAPI/datakitapi')
 include ':utilities'

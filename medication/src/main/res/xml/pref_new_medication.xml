@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Select Medication Category"
+        android:key="select_med_cat">
+        <ListPreference
+            android:key="med_category"
+            />
+<!--
+        <ListPreference
+            android:key="medication_category"
+            android:title="&#45;&#45;Please Select Category&#45;&#45;" />
+-->
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Select Medication Name"
+        android:key="select_med_name">
+        <ListPreference
+            android:key="med_name"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
