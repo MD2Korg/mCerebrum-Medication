@@ -1,10 +1,8 @@
 package org.md2k.medication;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TableLayout;
@@ -15,7 +13,6 @@ import android.widget.Toast;
 import com.crashlytics.android.Crashlytics;
 import com.google.gson.Gson;
 
-import io.fabric.sdk.android.Fabric;
 import org.md2k.datakitapi.messagehandler.ResultCallback;
 import org.md2k.medication.model.Category;
 import org.md2k.medication.model.CategoryList;
@@ -24,9 +21,8 @@ import org.md2k.utilities.permission.PermissionInfo;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+
+import io.fabric.sdk.android.Fabric;
 
 public class MainActivity extends AppCompatActivity {
 

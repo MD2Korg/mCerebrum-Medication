@@ -9,6 +9,7 @@ import org.md2k.medication.model.CategoryList;
 import org.md2k.utilities.FileManager;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -64,6 +65,7 @@ public class Configuration {
             return;
 
         try {
+            FileManager.createDir(new File(CONFIG_DIRECTORY));
             FileWriter writer = new FileWriter(CONFIG_DIRECTORY+SELECTED_MEDICATION);
             writer.write(json);
             writer.close();

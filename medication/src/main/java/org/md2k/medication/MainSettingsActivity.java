@@ -6,6 +6,8 @@ import android.preference.PreferenceActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import org.md2k.utilities.Report.LogStorage;
+
 
 /**
  * A {@link PreferenceActivity} that presents a set of application settings. On
@@ -23,6 +25,7 @@ public class MainSettingsActivity  extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        LogStorage.startLogFileStorageProcess(getApplicationContext().getPackageName());
         setContentView(R.layout.activity_medication_settings);
         getFragmentManager().beginTransaction().replace(R.id.layout_preference_fragment,
                 new PrefsFragmentMedicationList()).commit();

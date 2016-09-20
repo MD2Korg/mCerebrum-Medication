@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_LOGS" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_LOGS" />`
 
     <!-- Include required permissions for Google Mobile Ads to run. -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,7 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/app_theme_teal_light"
         tools:replace="android:theme">
-        <activity android:name="org.md2k.medication.MainActivity">
+        <activity android:name="org.md2k.medication.MainActivity"
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,10 +37,12 @@
         <activity
             android:name="org.md2k.medication.MainSettingsActivity"
             android:enabled="true"
+            android:screenOrientation="portrait"
             android:exported="true"
             android:label="@string/title_activity_main_settings" />
         <activity
             android:name="org.md2k.medication.NewMedicationActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_new_medication"/>
         <meta-data
             android:name="io.fabric.ApiKey"

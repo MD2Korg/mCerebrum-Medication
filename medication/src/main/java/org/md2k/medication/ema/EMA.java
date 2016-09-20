@@ -1,11 +1,9 @@
 package org.md2k.medication.ema;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.widget.Toast;
 
 import org.md2k.medication.Configuration;
-import org.md2k.medication.MainActivity;
 import org.md2k.medication.model.CategoryList;
 import org.md2k.utilities.FileManager;
 
@@ -41,8 +39,6 @@ import java.util.ArrayList;
 public class EMA {
     public static final String MULTIPLE_CHOICE="multiple_choice";
     public static final String MULTIPLE_SELECT="multiple_select";
-    public static final String TEXT="text";
-    public static final String TEXT_NUMERIC ="text_numeric";
     CategoryList categoryList;
     ArrayList<Question> questions;
     public void createEMA(Context context) {
@@ -67,7 +63,7 @@ public class EMA {
         questions.add(createQuestionLast());
         try {
             FileManager.writeJSON(Configuration.EMA_MEDICATION_DIRECTORY, Configuration.EMA_MEDICATION_FILENAME, questions);
-            Toast.makeText(context,"Success...questionnaire file creted.",Toast.LENGTH_SHORT).show();
+            Toast.makeText(context,"Success...questionnaire file created.",Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             Toast.makeText(context,"!!! Error: Could not create questionnaire file.!!!",Toast.LENGTH_SHORT).show();
         }
